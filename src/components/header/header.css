@@ -1,0 +1,113 @@
+.header__title {
+    text-transform: uppercase;
+    font-family: var(--font-global);
+    font-size: clamp(25px, 7vw, 65px);
+    letter-spacing: 3vw;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 35vh;
+    width: 100%;
+}
+
+.inputs {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.search, .select {
+    width: 43%;
+}
+
+/* Animation styling begins here */
+.header__title-text1, .header__title-text2, .header__title-text3, .header__title-text4, .header__title-text5, .header__title-text6, .header__title-text7, .header__title-text8, .header__title-text9, .header__title-text10 {
+    display: inline-block;
+    -webkit-animation: flip-vertical-right 1.5s ease-in both;
+	animation: flip-vertical-right 1.5s ease-in both;
+}
+
+.header__title-text1 {
+    animation-delay: 0.2s;
+}
+
+.header__title-text2 {
+    animation-delay: 0.3s;
+}
+
+.header__title-text3 {
+    animation-delay: 0.4s;
+}
+
+.header__title-text4 {
+    animation-delay: 0.5s;
+}
+
+.header__title-text5 {
+    animation-delay: 0.6s;
+}
+
+.header__title-text6 {
+    animation-delay: 0.7s;
+}
+
+.header__title-text7 {
+    animation-delay: 0.8s;
+}
+
+.header__title-text8 {
+    animation-delay: 0.9s;
+}
+
+.header__title-text9 {
+    animation-delay: 1s;
+}
+
+.header__title-text10 {
+    animation-delay: 1.1s;
+}
+
+@-webkit-keyframes flip-vertical-right {
+    0% {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    opacity: 0;
+    }
+
+    100% {
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0);
+    opacity: 100;
+    }
+}
+
+
+@keyframes flip-vertical-right {
+    0% {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    opacity: 0;
+    }
+    100% {
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0);
+    opacity: 100;
+    }
+}
+
+/* Animation Styling ends here */
+  
+@media screen and (max-width: 900) {
+    .header {
+        justify-content: space-evenly;
+        height: 25vh;
+    }
+
+    .header__title {
+        font-size: 11vw;
+    }
+}
