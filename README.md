@@ -35,4 +35,4 @@
 - The application is hosted on netlify and can be acess from any part oof the world with an innternet connection.
 - Please note that this application is intended for educational and informational purposes only. The accuracy of the information provided cannot be guaranteed, and users should always consult a reliable source for accurate information.
 
-### Thank you for using the Siktionary!
+### Thank you for using Siktionary!
