@@ -3,9 +3,6 @@
 #### This application is a tool designed to help users quickly look up the meanings of words. It is a simple and easy-to-use interface that provides access to a large database of words, along with their definitions, audio pronunciation, synonyms, antonyms, and relevant examples of usage.
 
 
-[Siktionary 1](./src/assets/Siktionary1.jpg)
-
-
 ## Features:
 
 - A user-friendly interface that is easy to navigate.
@@ -19,6 +16,13 @@
 - Search for a word or phrase using the search bar at the top of the application.
 - The application will display the definition of the word, an audio file that gives the word's pronunciations, along with examples of usage, synonyms and antonyms.
 - toggle betweew light and dark themes by clicking the toggle icon on the top right of the app.
+
+## Images
+
+- [Mobile View ](./src/assets/Siktionary2.jpg)
+- [Mobile View with Dark Mode](./src/assets/Siktionary1.jpg)
+- [Desktop View](./src/assets/Siktionary3.jpg)
+- [Desktop View with Darkmode](./src/assets/Siktionary4.jpg)
 
 ## Technical Details:
 
