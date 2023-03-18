@@ -2,6 +2,9 @@
 
 #### This application is a tool designed to help users quickly look up the meanings of words. It is a simple and easy-to-use interface that provides access to a large database of words, along with their definitions, audio pronunciation, synonyms, antonyms, and relevant examples of usage.
 
+[Mobile view 1](./src/assets/Siktionary1.jpg)
+[Mobile view 2](./src/assets/Siktionary3.jpg)
+
 ## Features:
 
 - A user-friendly interface that is easy to navigate.
