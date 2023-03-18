@@ -1,0 +1,50 @@
+.meanings {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    height: 55vh;
+    border: 5px solid;
+    border-radius: 10px;
+    padding: 10px 20px;
+    overflow-x: hidden;
+    font-weight: 400;
+    transition: 1s ease-in-out;
+    transition-property: border;
+}
+.subtitle {
+    font-size: clamp(17.5px, 5vw, 46px);
+    font-family: var(--font-global);
+}
+
+.singlemean {
+    display: flex;
+    flex-direction: column;
+    transition: 1s ease-in-out;
+    transition-property: color, background-color;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 10px 0;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    width: 10px;
+    height: 40px;
+    border-radius: 1rem;
+    background-color: grey;
+}
+
+b {
+    font-weight: 700;
+}
+
+@media screen and (max-width: 900px) {
+    .meanings {
+        height: 60vh;
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+}
