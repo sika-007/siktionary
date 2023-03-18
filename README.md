@@ -1,7 +1,8 @@
 # Welcome to Siktionary
 
-#### This application is a tool designed to help users quickly look up the meanings of words. It is a simple and easy-to-use interface that provides access to a large database of words, along with their definitions, audio pronunciation, synonyms, antonyms, and relevant examples of usage.
+#### This application is a tool designed to help users quickly look up the meanings of words. It is a simple and easy-to-use interface that provides access to a large database of words, along with their definitions, audio pronunciation, synonyms, antonyms, and relevant examples of usage. 
 
+### Check out the live site [here](https://siktionary.netlify.app/)
 
 ## Features:
 
@@ -17,12 +18,14 @@
 - The application will display the definition of the word, an audio file that gives the word's pronunciations, along with examples of usage, synonyms and antonyms.
 - toggle betweew light and dark themes by clicking the toggle icon on the top right of the app.
 
+
 ## Images
 
 - [Mobile View ](./src/assets/Siktionary2.jpg)
 - [Mobile View with Dark Mode](./src/assets/Siktionary1.jpg)
-- [Desktop View](./src/assets/Siktionary3.jpg)
-- [Desktop View with Darkmode](./src/assets/Siktionary4.jpg)
+- [Desktop View](./src/assets/Siktionary4.png)
+- [Desktop View With Darkmode](./src/assets/Siktionary3.png)
+
 
 ## Technical Details:
 
