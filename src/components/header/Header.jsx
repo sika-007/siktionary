@@ -3,15 +3,16 @@ import { ThemeProvider } from '@mui/system';
 import React from 'react'
 import "./header.css"
 import categories from '../../data/category';
+import { light } from '@mui/material/styles/createPalette';
 
-const header = ({category, setCategory, word, setWord}) => {
+const header = ({category, setCategory, word, setWord, theme}) => {
 
   const darkTheme = createTheme({
 		palette: {
 			primary: {
-				main: "#fff"
+				main: theme ? "#fff" : "#141414"
 			},
-			mode: 'dark',
+			mode: theme ? "dark" : "light",
 		},
 	});
 
@@ -19,8 +20,6 @@ const header = ({category, setCategory, word, setWord}) => {
 		setCategory(language)
 		setWord("")
 	}
-
-	console.log(word)
 
   return (
     <div className='header'>
