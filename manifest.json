@@ -1,0 +1,62 @@
+{
+    "name": "Siktionary",
+    "short_name": "Siktionary",
+    "theme_color": "#0d0101",
+    "background_color": "#323537",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "/",
+    "icons": [
+        {
+            "src": "./src/assets/Hopstarter-Book-Dictionary-Mac-Book.24.png",
+            "type": "image/png",
+            "sizes": "24x24"
+        },
+        {
+            "src": "./src/assets/Hopstarter-Book-Dictionary-Mac-Book.32.png",
+            "type": "image/png",
+            "sizes": "32x32"
+        },
+        {
+            "src": "./src/assets/Hopstarter-Book-Dictionary-Mac-Book.48.png",
+            "type": "image/png",
+            "sizes": "48x48"
+        },
+        {
+            "src": "./src/assets/Hopstarter-Book-Dictionary-Mac-Book.64.png",
+            "type": "image/png",
+            "sizes": "64x64"
+        },
+        {
+            "src": "./src/assets/Hopstarter-Book-Dictionary-Mac-Book.72.png",
+            "type": "image/png",
+            "sizes": "72x72"
+        },
+        {
+            "src": "./src/assets/Hopstarter-Book-Dictionary-Mac-Book.96.png",
+            "type": "image/png",
+            "sizes": "96x96"
+        },
+        {
+            "src": "./src/assets/Hopstarter-Book-Dictionary-Mac-Book.128.png",
+            "type": "image/png",
+            "sizes": "128x128"
+        },
+        {
+            "src": "./src/assets/dictionaryIOS.png",
+            "type": "image/png",
+            "sizes": "192x192",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "./src/assets/Hopstarter-Book-Dictionary-Mac-Book.256 (1).png",
+            "type": "image/png",
+            "sizes": "256x256"
+        },
+        {
+            "src": "./src/assets/dictionary.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ]
+}
