@@ -61,8 +61,8 @@ const Definitions = ({ word, meanings, category, theme }) => {
 
   return (
     <div className='meanings' style={{borderColor: theme ? "#fff" : "#282c34"}}>
-      {meanings[0]?.phonetics[meanings[0].phonetics.length - 1] && word && category === "en" && (
-        <audio controls ref={ref} src={meanings[0].phonetics[meanings[0].phonetics.length - 1] && meanings[0].phonetics[meanings[0].phonetics.length - 1].audio} style={{backgroundColor: "white", borderRadius: 10, minHeight: 50, width: "100%"}}>
+      {meanings[0]?.phonetics[meanings[0].phonetics.length - 1].audio && word && category === "en" && (
+        <audio controls ref={ref} src={meanings[0].phonetics[meanings[0].phonetics.length - 1].audio && meanings[0].phonetics[meanings[0].phonetics.length - 1].audio} style={{backgroundColor: "white", borderRadius: 10, minHeight: 50, width: "100%"}}>
         </audio>
       )}
       {!word ?
