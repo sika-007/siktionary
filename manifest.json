@@ -4,8 +4,8 @@
     "theme_color": "#0d0101",
     "background_color": "#323537",
     "display": "standalone",
-    "scope": "/",
-    "start_url": "/",
+    "scope": "./index.html",
+    "start_url": "./index.html",
     "icons": [
         {
             "src": "./src/assets/Hopstarter-Book-Dictionary-Mac-Book.24.png",
