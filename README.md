@@ -1,6 +1,6 @@
 # Welcome to Siktionary
 
-#### This application is a tool designed to help users quickly look up the meanings of words. It is a simple, minimalist and easy-to-use interface that provides access to a large database of words alongside their definitions, audio pronunciation, synonyms, antonyms, parts of speech, transcriptions, and relevant examples of usage. 
+#### This application is a tool designed to help users quickly look up the meanings of words. It has a simple, minimalist and easy-to-use interface that provides access to a large database of words alongside their definitions, audio pronunciation, synonyms, antonyms, parts of speech, transcriptions, and relevant examples of usage. 
 
 ### Check out the live site [here!](https://siktionary.netlify.app/)
 
