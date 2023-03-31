@@ -31,7 +31,7 @@
 ## Technical Details:
 
 - This application was built using the React.js Javascript Library in conjunction with Material UI.
-- The data for the application was sourced for feee from the [Free Dictionary API](https://dictionaryapi.dev/).
+- The data for the application was sourced for free from the [Free Dictionary API](https://dictionaryapi.dev/).
 - Frontend styling was done using a combination of JSX inline styles and pure CSS.
 - The application is hosted on netlify and can be acess from any part of the world with an innternet connection.
 - Please note that this application is intended for educational and informational purposes only. The accuracy of the information provided cannot be guaranteed, and users should always consult a reliable source for accurate information.
